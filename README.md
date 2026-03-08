@@ -112,8 +112,9 @@ project_spotify/
 
 ### How to Run the project
  1. Clone the repository
-        git clone [text](https://github.com/noelmathias/Spotify_playlist_data_pipeline.git)
-        cd Spotify_playlist_data_pipeline
+        git clone [text](https://github.com/noelmathias/Spotify_playlist_data_pipeline.git)  
+
+    `cd Spotify_playlist_data_pipeline`
 
 
 2. Start Airflow with Docker
