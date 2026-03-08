@@ -137,12 +137,17 @@ project_spotify/
 5. Check Output Files
     the generated files will appear in the output/folder:
     output/
-   ├── playlist_raw.csv
-   ├── playlist_transformed.csv
-   ├── summary_report.txt
-   ├── dataset_statistics.txt
-   ├── duration_distribution.png
-   └── top_artists.png
+playlist_raw.csv  
+
+playlist_transformed.csv  
+
+summary_report.txt  
+
+dataset_statistics.txt  
+
+duration_distribution.png  
+
+top_artists.png
 
 
 
