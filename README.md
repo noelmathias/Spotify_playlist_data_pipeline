@@ -114,7 +114,7 @@ project_spotify/
  1. Clone the repository
         git clone [text](https://github.com/noelmathias/Spotify_playlist_data_pipeline.git)  
 
-    `cd Spotify_playlist_data_pipeline`
+    next, `cd Spotify_playlist_data_pipeline`
 
 
 2. Start Airflow with Docker
@@ -137,12 +137,12 @@ project_spotify/
 5. Check Output Files
     the generated files will appear in the output/folder:
     output/
-│   ├── playlist_raw.csv
-│   ├── playlist_transformed.csv
-│   ├── summary_report.txt
-│   ├── dataset_statistics.txt
-│   ├── duration_distribution.png
-│   └── top_artists.png
+   ├── playlist_raw.csv
+   ├── playlist_transformed.csv
+   ├── summary_report.txt
+   ├── dataset_statistics.txt
+   ├── duration_distribution.png
+   └── top_artists.png
 
 
 
