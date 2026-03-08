@@ -1,0 +1,10 @@
+Spotify Playlist Dataset Statistics
+------------------------------------
+
+Total tracks: 50
+Unique artists: 25
+Unique albums: 42
+Average popularity: 90.26
+Average duration (minutes): 3.71
+Earliest release: 2000-07-10
+Latest release: 2022-11-25
