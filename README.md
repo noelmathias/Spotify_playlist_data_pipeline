@@ -146,10 +146,13 @@ README.md
         top_artists.png
 
 
-##Example Output:
-track_name       artist_name        popularity      duration_minutes        release_year      
-Blinding Lights  The Weeknd         98              3.33                    2020
-Shape of You     Ed Sheeran         97              3.52                    2017
+
+## Example Output
+
+| track_name        | artist_name | popularity | duration_minutes | release_year |
+|-------------------|-------------|------------|------------------|--------------|
+| Blinding Lights   | The Weeknd  | 98         | 3.33             | 2020 |
+| Shape of You      | Ed Sheeran  | 97         | 3.52             | 2017 |
 
 ##Learning Outcomes:
 
