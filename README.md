@@ -135,20 +135,21 @@ project_spotify/
         the pipeline will automatically generate the output files
 
 5. Check Output Files
-    the generated files will appear in the output/folder:
+    the generated files will appear in the output/folder:  
+
     output/  
-    
-    playlist_raw.csv  
 
-    playlist_transformed.csv  
+        playlist_raw.csv  
 
-    summary_report.txt  
+        playlist_transformed.csv  
 
-    dataset_statistics.txt  
+        summary_report.txt  
 
-    duration_distribution.png  
+        dataset_statistics.txt  
 
-    top_artists.png
+        duration_distribution.png  
+
+        top_artists.png
 
 
 
