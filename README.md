@@ -74,10 +74,10 @@ The pipeline performs the following transformations:
 ### Output Files:
 The pipeline generates the following outputs-
 
-Raw Dataset - playlist_raw.csv
-Transformed Dataset - playlist_transformed.csv
-Summary Report - summary_report.txt
-Dataset Statistics - dataset_statistics.txt
+1. Raw Dataset - playlist_raw.csv
+2. Transformed Dataset - playlist_transformed.csv
+3. Summary Report - summary_report.txt
+4. Dataset Statistics - dataset_statistics.txt
 
 ### Project Structure:
 
@@ -124,7 +124,7 @@ project_spotify/
     [text]http://localhost:8081
 
     Login credentials-
-    username: admin
+    username: admin, 
     password: admin
 
 4. Run the Pipeline
@@ -136,12 +136,12 @@ project_spotify/
 5. Check Output Files
     the generated files will appear in the output/folder:
     output/
-        playlist_raw.csv
-        playlist_transformed.csv
-        summary_report.txt
-        dataset_statistics.txt
-        duration_distribution.png
-        top_artists.png
+│   ├── playlist_raw.csv
+│   ├── playlist_transformed.csv
+│   ├── summary_report.txt
+│   ├── dataset_statistics.txt
+│   ├── duration_distribution.png
+│   └── top_artists.png
 
 
 
