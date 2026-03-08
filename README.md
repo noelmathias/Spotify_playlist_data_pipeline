@@ -1,6 +1,6 @@
-#Spotify Playlist Data Pipeline --
+# Spotify Playlist Data Pipeline --
 
-##Project Overview:
+## Project Overview:
 
 This project implements an automated data pipeline that processes Spotify playlist data for analysis.
 
@@ -12,7 +12,7 @@ This project demonstrates fundamental data engineering concepts, including data 
 
 ⸻
 
-##Dataset Source
+### Dataset Source
 
 The playlist data is fetched from the following public JSON dataset:
 [text](https://raw.githubusercontent.com/rushi4git/spotify-playlist-data/refs/heads/main/spotify_playlist.json)
@@ -26,16 +26,16 @@ duration_ms       Track duration in milliseconds
 release_date      Track release date
 
 
-##Project Objectives:
+### Project Objectives:
 
 The goal of this project is to build a Python-based data pipeline that:
-	1.	Fetches playlist data from an external JSON file
+1.	Fetches playlist data from an external JSON file
 	2.	Converts the JSON dataset into a Pandas DataFrame
 	3.	Performs data cleaning and transformation
 	4.	Stores processed outputs locally
 	5.	Automates the workflow using Apache Airflow
 
-##Pipeline Architecture:
+### Pipeline Architecture:
 
 follows data engineering workflow-
 Fetch Data
@@ -48,7 +48,7 @@ Generate Analytics Report
      ↓
 Pipeline Completion
 
-#Airflow DAG Workflow
+### Airflow DAG Workflow
 The pipeline is orchestrated using Apache Airflow and contains the following tasks:
 ![Airflow DAG](airflow_dag.png)
 
@@ -63,7 +63,7 @@ notify_completion    Marks pipeline completion
 This demonstrates how Airflow can automate ETL workflows
 
 
-##Data Transformations:
+### Data Transformations:
 The pipeline performs the following transformations:
 
 1. Convert Duration to Minutes.
@@ -77,7 +77,7 @@ Popularity Score     Category
 41 – 70              Medium
 71 – 100             High
 
-##Output Files:
+### Output Files:
 The pipeline generates the following outputs-
 
 Raw Dataset - playlist_raw.csv
@@ -85,7 +85,7 @@ Transformed Dataset - playlist_transformed.csv
 Summary Report - summary_report.txt
 Dataset Statistics = dataset_statistics.txt
 
-##Project Structure:
+### Project Structure:
 
 project_spotify
 dags/
@@ -104,24 +104,24 @@ requirements.txt
 README.md
 
 
-##Technologies Used
+### Technologies Used
 	•	Python
 	•	Pandas
 	•	Requests
 	•	Apache Airflow
 	•	Docker
 
-##How to Run the project
-###1. Clone the repository
+### How to Run the project
+ 1. Clone the repository
         ```bash
         git clone [text](https://github.com/noelmathias/Spotify_playlist_data_pipeline.git)
         cd Spotify_playlist_data_pipeline
 
 
-###2. Start Airflow with Docker
+2. Start Airflow with Docker
     `docker-compose up`
 
-###3. Open Airflow UI
+3. Open Airflow UI
     open the browser and go to:
     [text]http://localhost:8081
 
@@ -129,13 +129,13 @@ README.md
     username: admin
     password: admin
 
-###4. Run the Pipeline
+4. Run the Pipeline
     a. Open DAG - spotify_playlist_pipeline
     b. Trigger DAG
     c. Monitor Execution
         the pipeline will automatically generate the output files
 
-###5. Check Output Files
+5. Check Output Files
     the generated files will appear in the output/folder:
     output/
         playlist_raw.csv
@@ -147,14 +147,14 @@ README.md
 
 
 
-## Example Output
+### Example Output
 
 | track_name        | artist_name | popularity | duration_minutes | release_year |
 |-------------------|-------------|------------|------------------|--------------|
 | Blinding Lights   | The Weeknd  | 98         | 3.33             | 2020 |
 | Shape of You      | Ed Sheeran  | 97         | 3.52             | 2017 |
 
-##Learning Outcomes:
+### Learning Outcomes:
 
 This project demonstrates key data engineering concepts:
 	•	Building ETL pipelines
